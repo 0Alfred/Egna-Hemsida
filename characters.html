@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Min sida</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript">
+        function changeImage() {
+            var img = document.getElementById("img");
+            img.src = images[x];
+            x++;
+
+            if (x >= images.length) {
+                x = 0;
+            }
+            var timerid = setInterval(changeImage(), 1000);
+        }
+        }
+        var images = [],
+            x = 0;
+        images[0] = "image1.jpg";
+        images[1] = "image2.jpg";
+        images[2] = "image3.jpg";
+    </script>
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <div id="leftdiv">
+
+
+    </div>
+    <div id="centerdiv">
+        <div class="flexbox">
+            <a class="links flexitem" href="characters.html">Characters</a>
+            <a class="links flexitem" href="lore.html">Lore</a>
+            <a class="links flexitem" href="map.html">Map</a>
+            <a class="links flexitem" href="about.html">About</a>
+        </div>
+
+
+    </div>
+    <div id="rightdiv">
+
+
+    </div>
+    
+</body></html>
