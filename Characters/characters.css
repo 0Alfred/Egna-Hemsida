@@ -1,0 +1,101 @@
+html {
+    margin: 0px;
+    background: linear-gradient(to bottom, #00cc99 0%, #009999 100%);
+    background-attachment: fixed;
+    font-size: 24px;
+}
+
+#rightdiv {
+    background-image: url(../Images/Viego_0.jpg);
+    width: 20%;
+    margin: auto;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    right: 0%;
+    background-size: cover;
+    background-position: 700px;
+
+}
+
+#leftdiv {
+    background-image: url(../Images/Thresh_0.jpg);
+    width: 20%;
+    margin: auto;
+    height: 100%;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-size: cover;
+    background-position: 810px;
+
+}
+
+#knappar {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../Images/72e86f8f-0cfe-4542-a84e-b8aba005554e_1.a95b803a3f942b7411e2856eb61ae9f4.jpeg);
+
+}
+
+.links {
+    text-decoration: none;
+    color: lightgreen;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+
+
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.flexitem {
+    flex: auto;
+    text-align: center;
+
+}
+
+body {
+    margin: 0;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+
+#centerdiv {
+    height: 100%;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    align-content: center;
+    white-space: pre-line;
+    overflow: hidden;
+    word-break: break-all;
+    left: 20%;
+
+}
+
+.pictures {}
+
+#Kled {
+    color: orange;
+}
+
+#viego {
+    color: lightgreen;
+}
+
+#gnar {
+    color: darkorange;
+}
+
+#rammus {
+    color: forestgreen;
+}
